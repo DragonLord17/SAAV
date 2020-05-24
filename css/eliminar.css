@@ -1,0 +1,51 @@
+
+
+.eliminarCli{
+  text-align: center;
+  width: 50%;
+  left: 25%;
+  top: 20px;
+  position: relative;
+  margin-bottom: 25px;
+  background-color: #a7dcb2;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  border-radius: 1pc;
+}
+
+.eliminarEmp{
+  text-align: center;
+  top: 25px;
+  width: 50%;
+  left: 25%;
+  position: relative;
+  background-color: #a7dcb2;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  border-radius: 1pc;
+}
+
+label{
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+input[type=text], select {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.btn{
+  width: 30%;
+  font-size: 18px;
+  border-radius: 2pc;
+}
+
+h1{
+  font-size: 30px;
+}

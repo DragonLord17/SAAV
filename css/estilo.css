@@ -1,0 +1,107 @@
+*
+{
+    box-sizing: border-box;
+}
+
+body
+{
+    margin: 0;
+    font-family: sans-serif;
+    background: Azure;
+}
+
+h1
+{
+    color: black;
+    text-align: center;
+}
+
+h6
+{
+    color: gainsboro;
+    border-bottom: 10px solid gainsboro;
+}
+
+.form-register
+{
+    width: 95%;
+    max-width: 500px;
+    margin: auto;
+    background: white;
+    border-radius: 8px;
+}
+/* margin auto = Centrar */
+/* border.radius = esquinas redondeadas */
+
+.form_titulo
+{
+    background: LightSkyBlue;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-weight: 100;
+    font-size: 30px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom: 5px solid crimson;
+}
+/* padding = espacio entre esquinas y el texto */
+/* font-weight = quitar negritas */
+/* border-bottom: 5px solid crimson; = línea divisora */
+
+.contenedor-inputs
+{
+    padding: 10px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+/* padding = vertical horizontal */
+/* display y flez-wrap = Los que quepan arriba, los envía para abajo */
+/* justify-content: space-between; = separar un elemento de otro */
+
+.input
+{
+    margin-bottom: 15px;
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 3px;
+    border: 1px solid darkgray;
+}
+
+.input-48
+{
+    width: 48%;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.input-100
+{
+    width: 100%;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.btn-enviar
+{
+    background: orange;
+    color: white;
+    margin: auto; /* centrado */
+    padding: 10px 40px; /* altura, lados */
+    cursor: pointer; /* cuando el mouse pase encima */
+    font-size: 20px;
+}
+.btn-enviar:active
+{
+    transform: scale(1.05);
+}
+/* transform: scale(1.05); = se agranda cuando le das click */
+
+.form_link
+{
+    width: 100%;
+    margin: 7px;
+    font-size: 14px;
+    text-align: center;
+}

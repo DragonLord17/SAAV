@@ -1,0 +1,22 @@
+#contenedor{
+  text-align: center;
+  padding-top:  20px;
+}
+
+h1{
+  margin: 10px;
+}
+
+button {
+  background-color: #06403D;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  width: 25%%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity: 1;
+}
